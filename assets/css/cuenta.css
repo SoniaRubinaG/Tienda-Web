@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.info{
+    background-image: url('assets/img/logos/login7.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.txt-1{
+    color: white;
+    /* text-transform: capitalize; */
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.info h2{
+    color: white;
+    /* text-transform: uppercase; */
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.info hr{
+    width: 55px;
+    border: 4px solid white;
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+.txt-2{
+    color: white;
+    font-size: 18px;
+}
+
+.form{
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(226, 220, 220);
+}
+
+.form h2{
+    color: rgb(44, 106, 165);
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+form p{
+    font-size: 16px;
+    color:slategrey;
+    margin-bottom: 25px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    outline: none;
+    border-color: rgb(38, 111, 212);
+    border-width:0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.inputs a{
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.submit{
+    background-color: rgb(114, 173, 231);
+    padding: 15px;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    border-radius: 25px;
+    margin: 10px 10px;
+}
+
+@media(max-width:990px){
+    .container{
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+    .info{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+    .form h2{
+        margin-top: 40px;
+    }
+}
+
+button{
+    background-color: rgb(165, 100, 235);
+    padding: 15px;
+    border: 0;
+    color: white;
+    font-size: 10px 10px;
+    /* text-transform: uppercase; */
+    border-radius: 25px;
+    margin: 10px 10px;
+}

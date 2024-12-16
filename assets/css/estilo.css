@@ -1,0 +1,60 @@
+/* Estilos del modal del carrito */
+.cart-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    right: 20px;
+    top: 20px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    /* Añadido para esquinas redondeadas */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    /* Mejora la usabilidad al indicar que es clickeable */
+}
+
+.dropdown-menu {
+    width: 300px;
+    padding: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+}

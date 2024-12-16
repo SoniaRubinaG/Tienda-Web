@@ -1,0 +1,149 @@
+
+.background {
+    background-image: url('/assets/img/logos/background_black.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    animation: efecto 2s ease-in-out 0s infinite;
+    }
+  
+  
+  /* Estilo para el banner */
+  .banner {
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 60vh;
+      color: white;
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+  }
+  
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding: 0;
+      background-color: #1c1c1c;
+      color: white;
+  }
+  .navbar {
+      background-color: #1a1a1a;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      border: none;
+      padding: 5px 15px;
+      width: 100%;
+      outline: none;
+  }
+  .navbar .btn-search {
+      background-color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 5px 10px;
+  }
+  .navbar .icon {
+      margin-right: 10px;
+  }
+  .categories, .menu-links {
+      display: flex;
+      align-items: center;
+  }
+  .categories .dropdown-toggle {
+      background-color: #444;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 5px 15px;
+      box-shadow: none;
+  }
+  .menu-links a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: underline;
+  }
+    header {
+      background-color: #1c1c1c;
+    }
+    .navbar {
+      padding: 10px 20px;
+    }
+    .search-bar {
+      border-radius: 20px 0 0 20px;
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    .btn-search {
+      background-color: #ffcc00;
+      border-radius: 0 20px 20px 0;
+      border: none;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+    .categories-bar {
+      background-color: #3a3a3a;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .categories-bar button {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .categories-bar button {
+      background-color: #2c2c2c;
+      border: none;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .categories-bar button:hover,
+    .categories-bar a:hover {
+      color: #ffcc00;
+    }
+     .menu {
+      position: relative;
+      display: inline-block;
+    }
+    .menu-button {
+      background-color: #f5f5f5;
+      color: #333;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .menu-button:hover {
+      background-color: #ddd;
+    }
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      min-width: 200px;
+      margin-top: 5px;
+    }
+    .menu-content a {
+      display: block;
+      color: #333;
+      padding: 10px 15px;
+      text-decoration: none;
+      background-color: #ddd;
+    }
+  
+    .menu:hover .menu-content {
+      display: block;
+    }
+  
+    @keyframes efecto{
+      from{
+          color:rgb(32, 151, 123);
+      }
+      to{
+          color:slateblue;
+      }
+  }

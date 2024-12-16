@@ -1,0 +1,25 @@
+/* Estilo para botones */
+button {
+    background-color: #6ac4e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5e9fe5;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form{
+    box-shadow: teal 5px;
+}
+/* a:hover {
+    text-decoration: underline;
+} */
