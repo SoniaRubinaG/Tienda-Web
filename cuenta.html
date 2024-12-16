@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión/Registrarse</title>
+    <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap5.3.3.css">
+    <script src="assets/lib/bootstrap/bootstrap5.3.3.js"></script>
+    <script src="assets/lib/popper/popper.min.js"></script>
+    <script src="assets/lib/jquery/jquery.3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/css/cuenta.css">
+    <link rel="stylesheet" href="assets/css/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<script>
+    function showRegister() {
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('register-form').style.display = 'block';
+        }
+
+    function showLogin() {
+            document.getElementById('register-form').style.display = 'none';
+            document.getElementById('login-form').style.display = 'block';
+        }
+</script>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+
+                <!-- EL logo -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logos/Vogue_logo.png" alt="Logo" width="120">
+                </a>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="politica.html">Politica</a>  
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+
+                <!-- La barra de búsqueda
+                <form class="d-flex" style="flex: 1; max-width: 600px;">
+                    <input type="text" class="search-bar" placeholder="Busca las prendas y más...">
+                    <button class="btn-search" type="submit">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png" alt="Buscar" width="20">
+                    </button>
+                </form> -->
+
+                <!-- Enlaces -->
+                <div class="d-flex align-items-center">
+                    <div class="me-3">
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="Usuario" width="20"
+                            class="icon">
+                            <a href="cuenta.html" class="text-white text-decoration-none">Registrarse/Iniciar Sesión</a>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                            Carrito <span id="cart-count" class="badge bg-danger">0</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuClickableInside">
+                            <li>
+                                <div id="cart-items"></div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <div id="cart-total" class="cart-total">Total: S/ 0.00</div>
+                            </li>
+                            <li>
+                                <a href="carritocompras.html" class="btn btn-primary">Ir al carrito</a>
+                                <button id="clear-cart" class="btn btn-danger">Vaciar Carrito</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- <img src="assets/img/logos/login7.jpg" alt=""> -->
+            <div class="info">
+                <!-- <p class="txt-1">Gracias por visitarnos</p> -->
+                <h2 class="animate__animated animate__backInLeft">Bienvenido de nuevo</h2>
+                <hr>
+            </div>
+
+            <form class="form">
+                <h2>Login</h2>
+    
+                <div class="inputs">
+    
+                    <input type="email" class="box" placeholder="Ingresa tu correo">
+                    <input type="password" class="box" placeholder="Ingresa tu contraseña">
+    
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+    
+                    <input type="submit" value="login" class="submit">
+
+                    <button >Crear cuenta</button>
+    
+    
+                </div>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
